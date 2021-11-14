@@ -1,0 +1,38 @@
+* {
+    margin:0px;
+}
+header {
+    background:linear-gradient(45deg , black, deeppink);
+    color:white;
+    text-align:center;
+}
+body {
+    background:linear-gradient(180deg , aqua , rgb(0, 255, 170));
+}
+table tr td, table tr, table {
+    width:100%;
+    background-color:rgb(0, 131, 131);
+    color:white;
+    font-size:40;
+}
+input[type="number"] {
+    width:450px;
+    border:1px solid black;
+}
+input[type="button"] {
+    background-color:rgb(0, 153, 102);
+    color:white;
+    font-size:20;
+}
+input[type="button"]:hover {
+    background-color:rgb(0, 63, 42);
+    cursor:pointer;
+}
+#outputBoard {
+    width:50%;
+    text-align: center;
+    margin:auto;
+    border:1px solid black;
+    background-color:white;
+    font-size:30;
+}
